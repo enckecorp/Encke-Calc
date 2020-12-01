@@ -1,0 +1,173 @@
+object Form1: TForm1
+  Left = 285
+  Height = 271
+  Top = 172
+  Width = 299
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Calculadora fodastica'
+  ClientHeight = 271
+  ClientWidth = 299
+  LCLVersion = '2.0.10.0'
+  object Edit1: TEdit
+    Left = 8
+    Height = 30
+    Top = 8
+    Width = 200
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 44
+    Top = 48
+    Width = 59
+    Caption = '1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 80
+    Height = 44
+    Top = 48
+    Width = 59
+    Caption = '2'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 152
+    Height = 44
+    Top = 48
+    Width = 59
+    Caption = '3'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 8
+    Height = 44
+    Top = 104
+    Width = 59
+    Caption = '4'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 80
+    Height = 44
+    Top = 104
+    Width = 59
+    Caption = '5'
+    OnClick = Button5Click
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 152
+    Height = 44
+    Top = 104
+    Width = 59
+    Caption = '6'
+    OnClick = Button6Click
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 8
+    Height = 44
+    Top = 160
+    Width = 59
+    Caption = '7'
+    OnClick = Button7Click
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Left = 80
+    Height = 44
+    Top = 160
+    Width = 59
+    Caption = '8'
+    OnClick = Button8Click
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Left = 152
+    Height = 44
+    Top = 160
+    Width = 59
+    Caption = '9'
+    OnClick = Button9Click
+    TabOrder = 9
+  end
+  object Button10: TButton
+    Left = 5
+    Height = 44
+    Top = 216
+    Width = 59
+    Caption = ','
+    OnClick = Button10Click
+    TabOrder = 10
+  end
+  object Button11: TButton
+    Left = 77
+    Height = 44
+    Top = 216
+    Width = 59
+    Caption = '0'
+    OnClick = Button11Click
+    TabOrder = 11
+  end
+  object Button12: TButton
+    Left = 149
+    Height = 44
+    Top = 216
+    Width = 59
+    Caption = '='
+    OnClick = Button12Click
+    TabOrder = 12
+  end
+  object Button13: TButton
+    Left = 224
+    Height = 44
+    Top = 48
+    Width = 59
+    Caption = '/'
+    OnClick = Button13Click
+    TabOrder = 13
+  end
+  object Button14: TButton
+    Left = 224
+    Height = 44
+    Top = 104
+    Width = 59
+    Caption = 'X'
+    OnClick = Button14Click
+    TabOrder = 14
+  end
+  object Button15: TButton
+    Left = 224
+    Height = 44
+    Top = 160
+    Width = 59
+    Caption = '-'
+    OnClick = Button15Click
+    TabOrder = 15
+  end
+  object Button16: TButton
+    Left = 224
+    Height = 44
+    Top = 216
+    Width = 59
+    Caption = '+'
+    OnClick = Button16Click
+    TabOrder = 16
+  end
+  object Button17: TButton
+    Left = 223
+    Height = 25
+    Top = 10
+    Width = 59
+    Caption = 'c'
+    OnClick = Button17Click
+    TabOrder = 17
+  end
+end
